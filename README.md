@@ -17,27 +17,33 @@ ARCHITECTURE:
 
 SERVERLESS SERVICES UTILIZED:
 
-Amazon S3: Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
+1.Amazon S3: Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
 
-AWS Lambda: Run code without provisioning or managing servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes.
+2.AWS Lambda: Run code without provisioning or managing servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes.
 
-Amazon DynamoDB: Amazon DynamoDB is a serverless, NoSQL database service that enables you to develop modern applications at any scale.
+3.Amazon DynamoDB: Amazon DynamoDB is a serverless, NoSQL database service that enables you to develop modern applications at any scale.
 
-Amazon sAPI Gateway: An API gateway is a component of the app-delivery infrastructure that sits between clients and services and provides centralized handling of API communication between them.
+4.Amazon sAPI Gateway: An API gateway is a component of the app-delivery infrastructure that sits between clients and services and provides centralized handling of API communication between them.
 
 
 
 
 IMPLEMENTATION STEPS:
 
-1.Create two s3 buckets with different names, one for the employee and other for the visitors.
-2.Before creating a lambda function ,create a role with the following permissions:
-    Amazon DynamoDB Fullaccess
-  	Amazon S3 Fullaccess
-  	Amazon API Gateway Fullaccess
-  	AWS lambda Fullaccess
-3.Create a Lambda function for the employee_registration where employee can register. Add trigger ,s3 employee bucket.
-4.Create an another Lambda function ,employee_authentication for verifying the image.
+1.Create two S3 buckets with different names, one for the employees and the other for the visitors.
+
+2.Before creating a Lambda function, create a role with the following permissions:
+    Amazon DynamoDB Full Access,
+    Amazon S3 Full Access,
+    Amazon API Gateway Full Access,
+    AWS Lambda Full Access
+3.Create a Lambda function for employee registration where employees can register. Add a trigger for the S3 employee bucket.
+
+4.Create another Lambda function, employee_authentication, for verifying the image.
+
 5.Create an API Gateway to GET and POST the data.
-6.Now,Create an React Front-end App for the demonstration.
+
+6.Now, create a React Front-end App for the demonstration.
+
+7.Upload the image from the hosted app on localhost:8080 and then verify whether the person in the image is an employee, visitor, or outsider.
 
