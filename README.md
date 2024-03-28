@@ -17,10 +17,10 @@ ARCHITECTURE:
 
 SERVERLESS SERVICES UTILIZED:
 
-S3 Bucket: Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
+Amazon S3: Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
 
 AWS Lambda: Run code without provisioning or managing servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes.
 
 Amazon DynamoDB: Amazon DynamoDB is a serverless, NoSQL database service that enables you to develop modern applications at any scale.
 
-API Gateway: An API gateway is a component of the app-delivery infrastructure that sits between clients and services and provides centralized handling of API communication between them.
+Amazon sAPI Gateway: An API gateway is a component of the app-delivery infrastructure that sits between clients and services and provides centralized handling of API communication between them.
