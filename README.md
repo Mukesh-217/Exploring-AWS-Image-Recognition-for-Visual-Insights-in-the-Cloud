@@ -24,3 +24,20 @@ AWS Lambda: Run code without provisioning or managing servers, creating workload
 Amazon DynamoDB: Amazon DynamoDB is a serverless, NoSQL database service that enables you to develop modern applications at any scale.
 
 Amazon sAPI Gateway: An API gateway is a component of the app-delivery infrastructure that sits between clients and services and provides centralized handling of API communication between them.
+
+
+
+
+IMPLEMENTATION STEPS:
+
+1.Create two s3 buckets with different names, one for the employee and other for the visitors.
+2.Before creating a lambda function ,create a role with the following permissions:
+    Amazon DynamoDB Fullaccess
+  	Amazon S3 Fullaccess
+  	Amazon API Gateway Fullaccess
+  	AWS lambda Fullaccess
+3.Create a Lambda function for the employee_registration where employee can register. Add trigger ,s3 employee bucket.
+4.Create an another Lambda function ,employee_authentication for verifying the image.
+5.Create an API Gateway to GET and POST the data.
+6.Now,Create an React Front-end App for the demonstration.
+
