@@ -33,10 +33,12 @@ IMPLEMENTATION STEPS:
 1.Create two S3 buckets with different names, one for the employees and the other for the visitors.
 
 2.Before creating a Lambda function, create a role with the following permissions:
+
     Amazon DynamoDB Full Access,
     Amazon S3 Full Access,
     Amazon API Gateway Full Access,
     AWS Lambda Full Access
+    
 3.Create a Lambda function for employee registration where employees can register. Add a trigger for the S3 employee bucket.
 
 4.Create another Lambda function, employee_authentication, for verifying the image.
