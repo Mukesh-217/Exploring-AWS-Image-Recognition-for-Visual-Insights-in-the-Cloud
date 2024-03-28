@@ -1,5 +1,5 @@
 # Exploring-AWS-Image-Recognition-for-Visual-Insights-in-the-Cloud
-PROJECT TITLE:
+TITLE OF THE PROJECT:
 
 Exploring AWS Image Recognition for Visual Insights in the Cloud
 
