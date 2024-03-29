@@ -9,7 +9,7 @@ To develop a comprehensive understanding of AWS image recognition services, spec
 
 DESCRIPTION:
 
-This project explores the potential of Amazon Web Services (AWS) image recognition services for extracting insights from visual data in the cloud. Utilizing tools like Amazon Rekognition and Amazon SageMaker, we demonstrate various use cases including object detection, facial recognition, and content moderation. We discuss integration with other AWS services, address considerations such as cost and privacy, and provide best practices for deploying image recognition models. Overall, this project offers a comprehensive guide for leveraging AWS image recognition to drive innovation and enhance decision-making processes in the digital era.
+This project explores the potential of Amazon Web Services (AWS) image recognition services for extracting insights from visual data in the cloud. Utilizing tools like Amazon Rekognition and AWS Lambda, we demonstrate various use cases including object detection, facial recognition, and content moderation. Through the integration of AWS Lambda and DynamoDB, data is efficiently managed and processed, with data retrieval facilitated by API Gateway. We address considerations such as cost, scalability, performance, and privacy, providing insights into optimizing serverless architecture and managing DynamoDB capacity. Best practices for deploying image recognition models using AWS services are outlined, offering a comprehensive guide for leveraging AWS image recognition to drive innovation and enhance decision-making processes in the digital era.
 
 ARCHITECTURE:
 
