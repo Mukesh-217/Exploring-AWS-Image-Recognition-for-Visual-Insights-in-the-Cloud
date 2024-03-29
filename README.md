@@ -23,7 +23,7 @@ SERVERLESS SERVICES UTILIZED:
 
 3.Amazon DynamoDB: Amazon DynamoDB is a serverless, NoSQL database service that enables you to develop modern applications at any scale.
 
-4.Amazon sAPI Gateway: An API gateway is a component of the app-delivery infrastructure that sits between clients and services and provides centralized handling of API communication between them.
+4.Amazon API Gateway: An API gateway is a component of the app-delivery infrastructure that sits between clients and services and provides centralized handling of API communication between them.
 
 
 
